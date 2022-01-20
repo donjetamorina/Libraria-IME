@@ -1,0 +1,1381 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fillimi 
+{
+  
+    grid-template-rows: 100%;
+    background-color: turquoise;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+}
+
+.rrjetet-sociale
+{
+    color: white; 
+    text-align: auto;
+    margin-right: auto;
+    
+}
+
+.ikona1
+ {
+    color: white;
+    width: 25px ;
+}
+
+.butoni 
+{    
+    background-color: white;
+    color: turquoise;
+    border: none;
+    padding: 1px 2px ;
+    cursor: pointer;
+    transition: all 0.5s ease 0;
+
+}
+
+.butoni:hover{
+    color: black;
+}
+
+.dekorimi
+{
+    text-decoration: none;
+    color:white;
+    text-align: left;
+}
+
+.dy 
+{
+    grid-template-rows: 100%;
+    background-color: rgb(121, 84, 84);
+}
+
+.dekorimi1 {
+    text-decoration: none;
+    color: black;
+}
+ 
+a,li,button
+{
+    font-weight: 500;
+    font-style: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo
+{
+    
+    cursor: pointer;
+   margin-right: auto;
+    width: 100px;
+    height: auto;
+}
+
+.menyt
+{
+    list-style: none;
+}
+
+.menyt li 
+{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menyt li a 
+{
+    transition: all 0.5s ease 0 ;
+}
+
+.menyt li a:hover 
+{
+    color: cadetblue;
+}
+
+.b1
+{
+    padding: 1px 2px;
+    background-color: turquoise;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease 0;
+}
+
+.b1:hover{
+   color:black;
+}
+
+
+
+.menyja
+{
+    color: black;
+    width: 35px;
+    height: 25px;
+    transition: 0.5 easy 0;
+}
+
+.menyja:hover
+{
+    color: white;
+    background-color: black;
+}
+
+
+.h3
+{
+   
+    width: auto;
+    height: auto;
+    padding: 8px;
+    margin: 3px;
+    display: inline-block;
+    background-color: rgb(138, 138, 138);
+   
+}
+
+.h1{
+
+   width:auto;
+ height: auto;
+ padding: 8px;
+ margin: 3px;
+display: inline;
+ background-color: turquoise;
+
+
+}
+
+.p
+{
+   
+    color: rgb(250, 248, 248);
+    width: auto;
+    height: auto;
+    padding: 8px;
+    margin: 3px;
+    background-color: rgb(138, 138, 138);
+}
+
+
+.b2
+{
+    margin-top: 10px;
+    padding: 8px 6px;
+    border: none;
+    color: white;
+    background-color: turquoise;
+    border-radius: 8px;
+    transition: 0.5s ease 0;
+}
+
+.b2:hover
+{
+    background-color: white;
+    color: turquoise;
+}
+.c1
+
+{
+   text-align: end;
+   font-size: 25px;
+   width: a;
+   display: block;
+
+}
+
+.tre1 {
+    background-image: url(fotot/ballina.jpg);
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 680px;
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 200px;
+    text-align: end;
+    
+ }
+
+.tre2
+ {  
+   margin-top: -5%;
+   box-sizing: border-box;
+   width: 1000px;
+   height: 400px;
+   margin-bottom: 5%;
+  
+ }
+
+.nalt
+ {
+    width: 100%;
+    border-top: 0;
+    background-color:turquoise;
+    
+ }
+
+.kolona
+ {
+   width: 23%;
+    max-width: 1000px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    display: inline-block;
+    
+
+ }
+
+.kolona4
+{
+    width: 55px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s ease 0;
+    
+ }
+
+.kolona4:hover
+ {
+   background-color: white;
+   color: turquoise;
+ }
+
+.posht {
+    width: 100%;
+    border-bottom: 0;
+    display: flex;
+    
+ }
+
+.tre-kolona
+ {
+   
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+.alkimisti, .sikur, .pse
+{
+    background-image:url(fotot/foto31.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px ;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 70px;
+    justify-content: center;
+    transition: 05s ease 0;
+}
+
+.alkimisti:hover,
+.sikur:hover,
+.pse:hover
+{
+    color: white;
+    transform: scale(0.90);
+    box-shadow: 10px 10px 10px rgb(138, 138, 138);
+  
+    
+    
+}
+
+.kater
+{
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 350px;
+   display: flex;
+}
+
+.ikona4
+{
+    
+    color: turquoise;
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+ 
+.kater1
+{
+    width: 25%;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-style:  solid ;
+    border-color: rgb(183, 183, 183);
+    padding: 5px;
+    border-width: 5px;
+   
+}
+
+.pre{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+     padding-right: 5px;
+   
+}
+.kater1 ol  {
+    border-bottom-style: dashed;
+     border-width: 1px;
+     border-color: turquoise;
+      
+      
+}
+
+
+.takimi
+ {
+    margin: 5px;
+    text-align: center;
+ }
+
+.btakimi
+ {
+    margin-left: 44px;
+    border:none;
+    margin: 4px;
+    padding: 10px;
+    background-color: turquoise;
+    color: white;
+    transition: 0.5s step-end 0;
+    border-radius: 6px;
+ }
+
+.btakimi:hover
+ {
+    color: turquoise;
+    background-color:black;
+   
+ }
+
+.kater2
+{
+    width: 65%;
+    color: black; 
+    margin-left: 29px; 
+    
+}
+
+.titulli
+{
+    color:turquoise ;
+    
+    
+}
+
+.likona
+{
+    color: turquoise;
+    width: 35px;
+    height: 35px;
+    transition: 0.5s ease 0;
+}
+
+.likona:hover
+{
+    background-color: turquoise;
+    color: white;
+}
+
+.kf
+{
+    display: flex;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.kater3
+{
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    display: inline-block;
+    
+}
+
+.librat
+{
+    
+    display: flex; 
+    margin-left: 15px; 
+    display: inline-block; 
+    box-sizing: border-box; 
+} 
+
+.hi
+{
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pre1
+{
+    font-size: 20px;
+     font-family: 'Courier New',
+     Courier,
+     monospace;
+}
+
+.pese
+{
+    background-image: url(fotot/bc.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+   
+}
+
+.pese1
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 530px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.pese11
+{
+    display:flex;
+  text-align: center;
+  margin-top: 35px;
+  height: 125px;
+   
+}
+
+.pese12
+{
+  width: 20%;  
+  transition: 0.5s ease 0;
+}
+
+.pese12:hover {
+  transform: scale(1.25);
+  
+  
+}
+
+.pi
+{
+    color:turquoise ;
+    height: 80px;
+    align-items: center;
+    margin-left: 7px;
+    width: 40px;
+    
+
+}
+
+.epara
+{
+    background-color: turquoise;
+    color: white;
+   
+}
+.epara5
+{
+    padding: 17px;
+}
+
+.pi1
+{
+    color:white;
+    height: 80px;
+    align-items: center;
+    margin-left: 7px;
+    width: 40px;
+}
+.pese2
+{
+   width: 55%;
+   height: 278px ;
+   display: flex;
+   
+}
+
+.libraria 
+{
+    width: 20px;
+    color: turquoise;
+    margin-right: 6px;
+    transition: 0.5s ease;
+
+}
+.libraria:hover{
+    transform: scale(1.4);
+    color: black;
+    box-shadow: 3px 3px 3px white;
+}
+.libratkomedik
+{
+    display: flex;
+    margin: 7px;
+    
+}
+ .libratk1
+{
+    width: 50%;
+    margin:20px;
+    
+} 
+
+
+.libratk
+{
+    margin-top: 20px;
+    transition: 0.5s ease 0;
+}
+.libratk:hover {
+    color: white;
+    background-color:rgb(183, 183, 183);
+}
+.butonilibraria
+{
+    background-color: turquoise;
+    color: white;
+    margin: 7px;
+    margin-left: 20px;
+    padding: 7px;
+    border: none;
+    transition: 0.5s ease 0;
+    border-radius: 6px;
+}
+.butonilibraria:hover
+{
+    background-color: white;
+    color:turquoise
+}
+.edyta5
+{
+    width: 30%;
+    margin: 15px;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+
+.gjashte
+{
+     background-image: url(fotot/foto1.cop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top:auto;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    z-index: 1;   
+}
+
+
+.mbrapa6
+{
+    
+    background-color: turquoise;
+   opacity: .8;
+   position: absolute;
+ width: 100%;
+   height: 230px;
+   
+} 
+.teksti6
+{
+     display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+   position: absolute;
+   z-index: 1;
+} 
+.teksti11
+{
+    padding: 15px;
+}
+.linku6
+{
+    margin-left: 160px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+  
+}
+.ikona1
+{
+    color: white;
+    transition: 0.7s ease;
+}
+.ikona1:hover{
+    transform: scale(1.2);
+    color: black;
+}
+.ikonat6
+{
+  width: 35px;
+  height: 35px;
+  transition: 0.5s ease 0;
+}
+.ikonat6:hover
+{
+    background-color: white;
+    color: turquoise;
+    padding: 3px;
+}
+
+.shtate
+{
+    background-color:white;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30PX;
+    margin-top: 30px;
+}
+
+.cmimet7
+{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    width: 1000px;
+    height: 87%;
+
+}
+.cmimet
+{
+    width: 30%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 30px;
+    border-color: rgb(183, 183, 183);
+    margin: 20px;
+    box-shadow: 10px 10px 30px rgb(183, 183, 183);
+     transition: 0.5s ease;
+}
+.cmimet:hover {
+    border: 6px solid;
+    border-color: turquoise;
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+.distanca
+{   
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.madhsia
+{
+    font-size: 40px;
+}
+
+.tete
+{
+   
+   background-image: url(fotot/foto1.1.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   margin-top: 100px;
+   width: 100%;
+   height: 370px;
+   display: flex;
+   justify-content: center;
+   z-index: 1;
+    
+}
+.mbrapa8
+{
+     background-color: turquoise;
+    opacity: .8;
+    position: absolute;
+    width: 100%;
+    height: 370px;
+
+   
+}
+
+.teksti8
+{
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+    color: black;
+    margin-top: 10px;
+    z-index: 1;
+ display: block;
+     
+}
+
+.profil
+{
+    height: 40px;
+    margin: 15px;
+}
+
+.tegjith
+{
+    border: none;
+    background-color: turquoise;
+    padding: 7px;
+    color: white;
+    margin: 3px;
+}
+.tre8
+{
+    padding: 7px;
+    border: none;
+   margin: 3px;
+   transition: 0.5 ease;
+}
+.tre8:hover
+{
+    background-color: turquoise;
+    color: white;
+}
+.butonat4
+{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: auto;
+  margin: 0 auto;
+}
+
+.fotot12
+{   
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 570px;
+    background-color: white;
+   
+    
+}
+.distancaefotov
+{
+    width: 24%;
+    height: 100%;
+    margin: 3px;
+    repeat: no-repeat;
+    size: 100% 100%;
+    transition: 1s ease;
+
+}
+.distancaefotov:hover {
+
+    transform: scale(1.5);
+    z-index: 2;
+    border-radius: 5px
+
+}
+.fotot4
+{
+    margin-top: 6px;
+    height: 30%;
+}
+.dhjete
+{
+    
+    background-color: rgb(183, 183, 183);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.foto10
+{
+    width: 45%;
+    height: 100%;
+    margin: 55px;
+  justify-content: end;
+  text-align: end;
+  align-items: flex-end;
+}
+.takimi10
+{
+    width: 50%;
+    margin-left: 50px;
+    padding-top:19px ;
+}
+.emri
+{
+    padding: 5px;
+    width: 40%;
+    border: none;
+    border-radius: 6px;
+}
+
+.mesazhi
+{
+   
+    padding: 2px;
+    width: 80%;
+    height: 80px;
+     border: none;
+     border-radius: 6px;
+}
+.dergo
+{
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: turquoise;
+    color: white;
+    width: auto;
+    margin-right: 20px;
+    transition: 0.5s ease;
+}
+.dergo:hover{
+    background-color: white;
+    color: turquoise;
+}
+.butonatetakimit
+{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.tre11 {
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.tetriat {
+    width: 33%;
+    height: 100%;
+    margin: 4px;
+    background-color: rgb(183, 183, 183);
+    transition: 0.7s ease;
+}
+.tetriat:hover{
+    transform: scaleY(1.2);
+    box-shadow: 5px 5px 5px rgb(138, 138, 138);
+}
+
+.fotot11 {
+    width: 100%;
+    height: 150px;
+    /* box-shadow: 10px 10px 30px rgb(183, 183, 183); */
+}
+
+/* div i veqant  */
+.fundifaqes {
+    background-image: url(fotot/fundi1.png);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    padding-top: 70px;
+    color: white;
+
+
+}
+
+.divi {
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.divih1 {
+    width: 100%;
+
+
+    display: flex;
+}
+
+.divih2 {
+    width: 100%;
+
+
+
+}
+
+.diviv {
+    display: inline-flex;
+    width: 48%;
+    margin-left: 10px;
+
+
+}
+
+.diviv1 {
+    width: 48%;
+    display: block;
+    margin: 8px;
+
+}
+
+.divpjesa1 {
+    width: 100%;
+
+}
+
+.divpjesa1 {
+    width: 100%;
+
+}
+
+.lexomeshume {
+    background-color: none;
+    border: 1px;
+    padding: 6px;
+    margin-left: 7px;
+    margin-bottom: 4px;
+    transition: 0.5s ease;
+}
+
+.lexomeshume:hover {
+    background-color: turquoise;
+    color: white;
+}
+
+.diviv12 {
+    width: 100%;
+}
+
+.divpjesah2 {
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.emaili {
+    padding: 3px;
+    background-color: none;
+
+    border: 1px;
+    margin: 5px;
+}
+
+.mesazhi1 {
+    padding: 5px;
+    background-color: none;
+    height: 30px;
+    border: 1px;
+    margin: 5px;
+}
+
+.libraria1 {
+    width: 40px;
+    color: white;
+    margin-right: 10px;
+    transition: 0.7s ;
+
+}
+.libraria1:hover{
+    transform: scale(1.4);
+    color: turquoise;
+}
+
+.pjesafundit {
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    background: turquoise;
+    border-top: 2px dotted #033349;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pjesafundit p {
+    padding-top: 10px;
+}
+h2.distanca {
+    text-align: center;
+    font-size: 30px;
+}
+
+.kontaktet
+{
+    margin-top: 50px;
+    width: 85%;
+    margin: 0 auto;
+    border-top: dashed 4px white;
+    display: flex;
+}
+
+.kontaktet1
+{
+    width: 33%;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.nr{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+@media only screen and (min-width: 315px) and (max-width: 667px)
+
+{
+    *
+    {
+        padding: 0;
+        margin: 0;
+         text-align: center;
+      
+    }
+    
+    .fillimi,
+     a,
+     header {
+
+        
+       display:block;
+      width: 100%;
+    }
+    .rrjetet-sociale {
+
+
+        display: flex;
+    }
+
+    .kontakti,
+    .logo ,
+    .c1
+    {
+        display: none;
+    }
+     li {
+
+         display: block;
+         width: 100%;
+         margin: 0px;
+         margin-top: 8px;
+     }
+     .tre1 {
+         background-image: url(fotot/ballina.jpg);
+         width: auto;
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         height: 150px;
+     }
+     .nalt {
+         display: block;
+         width: 60%;
+         margin: 0 auto;
+
+     }
+
+     .kolona {
+         width: 100%;
+         text-align: center;
+
+     }
+     .tre-kolona {
+         width: 80%;
+        margin: 0 auto;
+     }
+
+     .alkimisti,
+     .sikur,
+     .pse {
+         text-align: center;
+         justify-content: center;
+         margin-top: 10PX;
+     }
+
+     .posht,
+     .tre2,
+     .kater,
+     .pese,
+     .pese12 {
+
+         width: 100%;
+         height: auto;
+         display: block;
+ }
+
+ .kater1
+ {
+     width: 70%;
+     height: auto;
+     display: block;
+     margin: 25px auto;
+ }
+     .hi {
+         width: 100%;
+         padding: 5px;
+         height: auto;
+     }
+.kater2,.kater3,.librat
+{
+    display: none;
+}
+.pre1
+{
+    width: 98%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h2
+{
+    margin-top: 15px;
+}
+  
+ .pese1 {
+     width: 70%;
+     margin: 0 auto;
+ }
+
+ .pese11 {
+         display: block;
+         width: 70%;
+         height: auto;
+         align-items: center;
+         margin: 0 auto;
+           
+     }
+     
+div.epara
+{
+ background-color: white;
+}
+.pi1
+{
+    color: turquoise;
+}
+.pese2
+{
+    display:none;
+}
+ .gjashte
+{
+    background-image: url(fotot/foto1.cop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 160px;
+    display: block;
+    z-index: 1;
+
+}
+
+.mbrapa6 {
+
+    background-color: turquoise;
+    opacity: .8;
+    position: absolute;
+    width: 100%;
+    height: 160px;
+
+}
+  .linku6
+  {
+     margin:10px;
+     width: 24%;
+    
+  } 
+  .a{
+      font-size: 12px;
+  } 
+  .ikonat6
+  {
+      width: 17px;
+      height: 17px;
+  }
+  .shtate
+  {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+  }
+  .cmimet7
+  {
+      display: block;
+      
+     text-align: center;
+  }
+  .cmimet
+{
+    
+    margin-left:40px ;
+     transition: 0.5s ease;
+     }
+
+     .cmimet:hover {
+         border: 6px solid;
+         border-color: turquoise;
+         border-radius: 15px;
+         transform: scale(1.1);
+     }
+
+h2.distanca
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.tete
+{
+    width: 100%;
+    height: 450px;
+}
+.mbrapa8
+{
+    height: 450px;
+}
+.teksti8
+{
+    text-align: center;
+}
+.fotot12
+{
+    width: 100%;
+    height: auto;
+}
+.fotot4{
+    width: 80%;
+    height: auto;
+     margin: 0 auto;
+  
+}
+
+
+
+
+
+.distancaefotov
+{
+    width: 100%;
+    display: block;
+    margin-top: 15px ;
+    box-shadow: 10px 10px 30px rgb(183, 183, 183);
+ transition: 1s ease;
+
+ }
+
+ .distancaefotov:hover {
+
+     transform: scaleX(1.14);
+     z-index: 2;
+     border-radius: 5px
+ }
+
+.foto10
+{
+    display: none;
+}
+.takimi10
+{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.njembedhjet
+{
+    width: 100%;
+    height: auto;
+   
+}
+
+.tre11{
+    width: 80%;
+    display: block;
+    height: auto;
+}
+.tetriat
+{
+    width: 100%;
+    margin: 10px auto;
+    padding-bottom: 10px;
+  
+}
+.fundifaqes
+{
+    background-image: url(fotot/fundi1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 550px;
+    
+    
+}
+.divpjesa1,
+.divpjesa2,
+.diviv12,
+.diviv1,
+.diviv
+{
+    display: none;
+}
+.kontaktet {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 140px;
+    border:none;
+    display: block;
+    padding: 0;
+}
+.dhjete{
+    width: 100%;
+    height: 380px;
+}
+ 
+}
